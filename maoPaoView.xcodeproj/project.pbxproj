@@ -15,6 +15,7 @@
 		04FE74881D12A0D1002D2DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE74861D12A0D1002D2DC8 /* LaunchScreen.storyboard */; };
 		04FE74931D12A0D2002D2DC8 /* maoPaoViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE74921D12A0D2002D2DC8 /* maoPaoViewTests.m */; };
 		04FE749E1D12A0D2002D2DC8 /* maoPaoViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE749D1D12A0D2002D2DC8 /* maoPaoViewUITests.m */; };
+		04FE74AE1D12A11E002D2DC8 /* MaoPaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE74AD1D12A11E002D2DC8 /* MaoPaoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04FE74991D12A0D2002D2DC8 /* maoPaoViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maoPaoViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE749D1D12A0D2002D2DC8 /* maoPaoViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maoPaoViewUITests.m; sourceTree = "<group>"; };
 		04FE749F1D12A0D2002D2DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FE74AC1D12A11E002D2DC8 /* MaoPaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaoPaoView.h; sourceTree = "<group>"; };
+		04FE74AD1D12A11E002D2DC8 /* MaoPaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaoPaoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		04FE74771D12A0D1002D2DC8 /* maoPaoView */ = {
 			isa = PBXGroup;
 			children = (
+				04FE74AB1D12A10B002D2DC8 /* MaoPaoView */,
 				04FE747B1D12A0D1002D2DC8 /* AppDelegate.h */,
 				04FE747C1D12A0D1002D2DC8 /* AppDelegate.m */,
 				04FE747E1D12A0D1002D2DC8 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				04FE749F1D12A0D2002D2DC8 /* Info.plist */,
 			);
 			path = maoPaoViewUITests;
+			sourceTree = "<group>";
+		};
+		04FE74AB1D12A10B002D2DC8 /* MaoPaoView */ = {
+			isa = PBXGroup;
+			children = (
+				04FE74AC1D12A11E002D2DC8 /* MaoPaoView.h */,
+				04FE74AD1D12A11E002D2DC8 /* MaoPaoView.m */,
+			);
+			path = MaoPaoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				04FE74801D12A0D1002D2DC8 /* ViewController.m in Sources */,
 				04FE747D1D12A0D1002D2DC8 /* AppDelegate.m in Sources */,
 				04FE747A1D12A0D1002D2DC8 /* main.m in Sources */,
+				04FE74AE1D12A11E002D2DC8 /* MaoPaoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
